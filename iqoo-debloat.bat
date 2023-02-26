@@ -194,6 +194,7 @@ adb shell pm uninstall -k --user 0 com.vivo.gametrain
 adb shell pm uninstall -k --user 0 com.vivo.deformer
 adb shell pm uninstall -k --user 0 com.android.documentsui
 #New method of uninstall apps, for apps with "Failure [DELETE_FAILED_USER_RESTRICTED]" code
+#For Neo 855 based on originos 1.0 (android 11), replace 134 with 136
 adb shell service call package 134 s16 com.vivo.wallet i32 0 i32 0
 adb shell service call package 134 s16 com.vivo.agent i32 0 i32 0
 adb shell service call package 134 s16 com.vivo.carlauncher i32 0 i32 0
