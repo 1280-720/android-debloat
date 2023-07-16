@@ -73,7 +73,7 @@ adb shell pm uninstall -k --user 0 com.google.android.apps.docs
 adb shell pm uninstall -k --user 0 com.google.ar.lens
 adb shell pm uninstall -k --user 0 com.google.android.apps.restore
 adb shell pm uninstall -k --user 0 com.google.android.soundpicker
-adb shell pm uninstall -k --user 0 com.google.android.syncadapters.calendar
+#adb shell pm uninstall -k --user 0 com.google.android.syncadapters.calendar
 adb shell pm uninstall -k --user 0 com.google.ar.core
 adb shell pm uninstall -k --user 0 com.google.android.setupwizard
 adb shell pm uninstall -k --user 0 com.google.android.apps.wallpaper
