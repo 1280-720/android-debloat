@@ -27,8 +27,8 @@ adb shell pm uninstall -k --user 0 com.android.bips
 adb shell pm uninstall -k --user 0 com.android.hotwordenrollment.xgoogle
 adb shell pm uninstall -k --user 0 com.android.chrome
 adb shell pm uninstall -k --user 0 com.android.webview
-adb shell pm uninstall -k --user 0 com.android.calendar
-adb shell pm uninstall -k --user 0 com.android.providers.calendar
+#adb shell pm uninstall -k --user 0 com.android.calendar
+#adb shell pm uninstall -k --user 0 com.android.providers.calendar
 adb shell pm uninstall -k --user 0 android.romstats
 adb shell pm uninstall -k --user 0 com.android.documentsui
 adb shell pm uninstall -k --user 0 com.android.globalFileexplorer
@@ -128,7 +128,7 @@ adb shell pm uninstall -k --user 0 com.miui.analytics
 adb shell pm uninstall -k --user 0 com.miui.bugreport
 adb shell pm uninstall -k --user 0 com.miui.cleanmaster
 adb shell pm uninstall -k --user 0 com.miui.hybrid.accessory
-adb shell pm uninstall -k --user 0 com.miui.miwallpaper
+#adb shell pm uninstall -k --user 0 com.miui.miwallpaper
 adb shell pm uninstall -k --user 0 com.miui.msa.global
 adb shell pm uninstall -k --user 0 com.miui.touchassistant
 adb shell pm uninstall -k --user 0 com.miui.translation.kingsoft
@@ -139,10 +139,10 @@ adb shell pm uninstall -k --user 0 com.miui.userguide
 adb shell pm uninstall -k --user 0 com.miui.virtualsim
 adb shell pm uninstall -k --user 0 com.miui.yellowpage
 adb shell pm uninstall -k --user 0 com.miui.videoplayer
-adb shell pm uninstall -k --user 0 com.miui.weather2
+#adb shell pm uninstall -k --user 0 com.miui.weather2
 adb shell pm uninstall -k --user 0 com.miui.player
 adb shell pm uninstall -k --user 0 com.miui.screenrecorder
-adb shell pm uninstall -k --user 0 com.miui.providers.weather
+#adb shell pm uninstall -k --user 0 com.miui.providers.weather
 adb shell pm uninstall -k --user 0 com.miui.compass
 adb shell pm uninstall -k --user 0 com.miui.calculator
 adb shell pm uninstall -k --user 0 com.xiaomi.vipaccount
@@ -150,7 +150,7 @@ adb shell pm uninstall -k --user 0 com.xiaomi.channel
 adb shell pm uninstall -k --user 0 com.mipay.wallet
 adb shell pm uninstall -k --user 0 com.xiaomi.pass
 adb shell pm uninstall -k --user 0 com.xiaomi.shop
-adb shell pm uninstall -k --user 0 com.xiaomi.joyose
+#adb shell pm uninstall -k --user 0 com.xiaomi.joyose
 adb shell pm uninstall -k --user 0 com.xiaomi.providers.appindex
 adb shell pm uninstall -k --user 0 com.miui.fm
 adb shell pm uninstall -k --user 0 com.mi.liveassistant
@@ -235,6 +235,7 @@ adb shell pm uninstall -k --user 0 com.samsung.aasaservice
 adb shell pm uninstall -k --user 0 org.simalliance.openmobileapi.service
 adb shell pm uninstall -k --user 0 com.duokan.phone.remotecontroller.peel.plugin
 adb shell pm uninstall -k --user 0 com.facemoji.lite.xiaomi
+adb shell pm uninstall -k --user 0 com.xiaomi.discover #this is old xiaomi system updater app
 #adb shell pm uninstall -k --user 0 com.facebook.apadb shell pmanager #uninstalling this on older meme like 8/9 will cause system crash
 adb shell pm uninstall -k --user 0 com.facebook.katana
 adb shell pm uninstall -k --user 0 com.facebook.services
@@ -255,7 +256,7 @@ adb shell pm uninstall -k --user 0 com.qualcomm.qti.qmmi
 #- Likely any Android 11 ROM
 #It'll cause bootloop
 #You have been warned.
-adb shell pm uninstall -k --user 0 com.android.location.fused
+#adb shell pm uninstall -k --user 0 com.android.location.fused
 #Uninstalling these may break apps like Waze but will likely not cause bootloop.
 #You have been warned.
 adb shell pm uninstall -k --user 0 org.codeaurora.gps.gpslogsave
